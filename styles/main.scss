@@ -1,0 +1,148 @@
+@import "variables";
+*{
+    margin: 0;
+    padding: 0;
+}
+.hotel-main{
+    background-color: $color-secundario;
+    color: aliceblue;
+}
+
+.menu-navegacion{
+    display: flex;
+    background-color: $color-header;
+    padding: 12px;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.Logo{
+width: 50px;
+}
+a{ 
+    text-decoration: none !important;
+    color: whitesmoke !important;
+    font-family: $letra !important;
+    font-weight: 900;
+    font-size: 20px;
+}
+.activo {
+    text-decoration: underline wavy $color-primario !important;
+}
+.perrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.perrito p{
+    margin-top: 10px;
+    font-size: 21px;
+    margin-left: 49px;
+    font-family: $letra;
+}
+.ellugar{
+    font-size: 50px;
+    font-family: $letra;
+    font-weight: lighter;
+}
+.paratumascota {
+    margin-left: 40px;
+    font-size: 90px;
+    font-family:  $letra;
+    font-weight: bold;
+}
+.instalaciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-secundario;
+    
+
+}
+.instalacionesh2{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family: $letra;
+    font-weight: bold;
+}
+
+hr{
+    margin: 12px !important;
+    margin-left: 300px !important;
+    margin-right: 300px !important;
+    border-color: $color-primario !important;
+    border-width: 3px !important;
+    
+}
+.quieroreservar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-secundario !important;
+    background-color: $color-primario !important; 
+    padding: 15px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+
+    
+}
+.quieroconocermas{
+    
+    color: black;
+    background-color: $color-primario;
+    padding: 8px;
+    margin-top: 3rem;
+    font-size: 36px;
+    font-family: $letra;
+    margin-left: -4rem;
+}
+footer{
+    background-color: $color-header ;
+    color: black;
+    font-family: $letra;
+    text-align: center;
+}
+.inicio{
+display: flex;
+justify-content: space-between;
+margin-left: 4rem;
+}
+.fondo-inicio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    align-items: center;
+}
+.fondoperrito{
+    background-color: $color-primario;
+    padding-left: 14rem;
+    padding-right: 14rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+.titulohotel{
+font-family: $letra;
+font-size: 100px;
+font-style:normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.ymas{
+    font-family: $letra;
+    font-size: 65px;
+    font-style:normal;
+    line-height: normal; 
+    margin-left: 6rem;
+}
+
+.carousel-inner img {
+    margin: auto;
+  }
