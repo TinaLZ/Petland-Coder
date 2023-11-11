@@ -282,6 +282,10 @@ button {
   align-items: center;
 }
 
+footer p {
+  margin-bottom: 0 !important;
+}
+
 .menu-hamburguesa {
   display: none;
 }
@@ -368,9 +372,6 @@ button {
     margin-top: 15px;
     margin-left: 2rem;
     margin-right: 2rem;
-  }
-  footer p {
-    margin-bottom: 0%;
   }
   .CuidadosPerrito {
     display: flex;
