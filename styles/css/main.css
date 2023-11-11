@@ -293,6 +293,13 @@ button {
   .menu-hamburguesa {
     display: block;
   }
+  .menu-hamburguesa li {
+    padding-left: 5px;
+    margin-left: 5px;
+  }
+  .menu-hamburguesa .activo {
+    display: none;
+  }
   .adopcion-text {
     font-family: Inter;
     text-align: center;

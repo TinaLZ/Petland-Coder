@@ -268,6 +268,13 @@ button {
 
   .menu-hamburguesa{
     display: block;
+    li{
+      padding-left: 5px;
+      margin-left: 5px
+    }
+    .activo{
+      display: none;
+    }
   }
 
   .adopcion-text {

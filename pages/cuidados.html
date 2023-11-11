@@ -1,89 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/css/main.css" />
-    <title>Petland</title>
-  </head>
-  <body>
-    <header>
-      <nav class="menu-navegacion">
-        <div>
-          <a href="../index.html"
-            ><img class="Logo" src="../img/logo petland.png" alt="logo"
-          /></a>
-        </div>
-        <ul class="menu">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="hotel.html">Hotel</a></li>
-          <li><a href="adopcion.html">Adopción</a></li>
-          <li><a class="activo" href="cuidados.html">Cuidados</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Descubre los 5 cuidados esenciales para el bienestar de tu perro en Petland. Consejos sobre alimentación, educación, higiene, actividad física y atención veterinaria para tu mascota." />
+  <link rel="stylesheet" href="../styles/css/main.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <title>Petland</title>
+</head>
 
-    <main>
-      <div class="CuidadosPerrito">
-        <div>
-          <h1 class="tituloCuidados">
-            5 cuidados del perro imprescindibles para su bienestar.
-          </h1>
-          <h3 class="subcuidados">Alimentación de calidad</h3>
-          <p>
-            Elegir un pienso nutritivo y darles una buena hidratación es clave
-            para el bienestar de los perros. Hay que ofrecerles alimentos de
-            calidad en función de su etapa de vida, según si es cachorro, adulto
-            o senior. Si se trata de un cachorro o de un perro mayor habrá que
-            adaptar su dieta a sus requerimientos. Lo mismo sucede si la mascota
-            tiene alguna intolerancia, patología o necesidad alimentaria
-            específica.
-          </p>
-          <h3 class="subcuidados">Educación animal</h3>
-          <p>
-            Enseñar a un perro es esencial para que se desarrolle
-            satisfactoriamente. Hay que indicarle dónde hacer sus necesidades,
-            en qué espacios, qué puede hacer y que no, y guiarlo desde el
-            principio para inculcarle un buen aprendizaje. Eso sí, siempre desde
-            el refuerzo positivo, evitando reñirle bruscamente o gritarle, ya
-            que así solo conseguiremos asustarle.
-          </p>
-          <h3 class="subcuidados">Higiene del perro</h3>
-          <p>
-            Si bien es cierto que hay mucha controversia sobre cada cuándo hay
-            que bañar a un perro, el promedio aproximado es una vez al mes.
-            Asimismo, hay que cepillarles diariamente, y cortarles el pelo y las
-            uñas cuando sea necesario. También hay que prestar atención a la
-            higiene de sus oídos y ojos, para evitar la acumulación de suciedad
-            y de legañas.
-          </p>
-          <h3 class="subcuidados">Paseos y actividad física</h3>
-          <p>
-            Los perros necesitan moverse y ejercitarse cada día. Por ello, entre
-            los cuidados de un perro está el sacarle a pasear al menos tres
-            veces al día, tanto para promover su actividad como para que pueda
-            hacer sus necesidades vitales. Aparte de los paseos también es bueno
-            jugar con ellos en casa y mantenerlos activos de forma habitual.
-            Atención y cuidados veterinarios No siempre los cuidados del perro
-            están a nuestro alcance y acudir al veterinario es necesario en
-            muchos casos para revisar su estado de salud e intervenir con el
-            tratamiento oportuno. Además, si tienes un perro deberás visitar al
-            veterinario para ponerle las correspondientes vacunas, el chip y
-            determinar un plan de desparasitación adecuado al animal.
-          </p>
-        </div>
-        <div class="adopcion">
-          <img
-            id="perritopug"
-            src="../img/perrito pug.jpg"
-            alt="perrito pug cargado"
-          />
+<body>
+  <header>
+    <nav class="menu-navegacion">
+      <div>
+        <a href="../index.html"><img class="Logo" src="../img/logo petland.png" alt="logo" /></a>
+      </div>
+      <div class="menu-hamburguesa">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="hotel.html">Hotel</a></li>
+            <li><a href="adopcion.html">Adopción</a></li>
+            <li><a class="activo" href="cuidados.html">Cuidados</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
         </div>
       </div>
-    </main>
-    <footer>
-      <p>GRAL. SAN CANINO KM 21 PARCELA 1-A, CHIMUELO, COLA.</p>
-    </footer>
-  </body>
+      <ul class="menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="hotel.html">Hotel</a></li>
+        <li><a href="adopcion.html">Adopción</a></li>
+        <li><a class="activo" href="cuidados.html">Cuidados</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="CuidadosPerrito">
+      <div>
+        <h1 class="tituloCuidados">
+          5 cuidados del perro imprescindibles para su bienestar.
+        </h1>
+        <h3 class="subcuidados">Alimentación de calidad</h3>
+        <p>
+          Elegir un pienso nutritivo y darles una buena hidratación es clave
+          para el bienestar de los perros. Hay que ofrecerles alimentos de
+          calidad en función de su etapa de vida, según si es cachorro, adulto
+          o senior. Si se trata de un cachorro o de un perro mayor habrá que
+          adaptar su dieta a sus requerimientos. Lo mismo sucede si la mascota
+          tiene alguna intolerancia, patología o necesidad alimentaria
+          específica.
+        </p>
+        <h3 class="subcuidados">Educación animal</h3>
+        <p>
+          Enseñar a un perro es esencial para que se desarrolle
+          satisfactoriamente. Hay que indicarle dónde hacer sus necesidades,
+          en qué espacios, qué puede hacer y que no, y guiarlo desde el
+          principio para inculcarle un buen aprendizaje. Eso sí, siempre desde
+          el refuerzo positivo, evitando reñirle bruscamente o gritarle, ya
+          que así solo conseguiremos asustarle.
+        </p>
+        <h3 class="subcuidados">Higiene del perro</h3>
+        <p>
+          Si bien es cierto que hay mucha controversia sobre cada cuándo hay
+          que bañar a un perro, el promedio aproximado es una vez al mes.
+          Asimismo, hay que cepillarles diariamente, y cortarles el pelo y las
+          uñas cuando sea necesario. También hay que prestar atención a la
+          higiene de sus oídos y ojos, para evitar la acumulación de suciedad
+          y de legañas.
+        </p>
+        <h3 class="subcuidados">Paseos y actividad física</h3>
+        <p>
+          Los perros necesitan moverse y ejercitarse cada día. Por ello, entre
+          los cuidados de un perro está el sacarle a pasear al menos tres
+          veces al día, tanto para promover su actividad como para que pueda
+          hacer sus necesidades vitales. Aparte de los paseos también es bueno
+          jugar con ellos en casa y mantenerlos activos de forma habitual.
+          Atención y cuidados veterinarios No siempre los cuidados del perro
+          están a nuestro alcance y acudir al veterinario es necesario en
+          muchos casos para revisar su estado de salud e intervenir con el
+          tratamiento oportuno. Además, si tienes un perro deberás visitar al
+          veterinario para ponerle las correspondientes vacunas, el chip y
+          determinar un plan de desparasitación adecuado al animal.
+        </p>
+      </div>
+      <div class="adopcion">
+        <img id="perritopug" src="../img/perrito pug.jpg" alt="perrito pug cargado" />
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>GRAL. SAN CANINO KM 21 PARCELA 1-A, CHIMUELO, COLA.</p>
+  </footer>
+</body>
+
 </html>
