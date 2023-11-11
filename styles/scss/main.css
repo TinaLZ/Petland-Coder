@@ -282,9 +282,16 @@ button {
   align-items: center;
 }
 
-@media (max-width: 800px) {
+.menu-hamburguesa {
+  display: none;
+}
+
+@media (max-width: 950px) {
   .menu {
     display: none;
+  }
+  .menu-hamburguesa {
+    display: block;
   }
   .adopcion-text {
     font-family: Inter;

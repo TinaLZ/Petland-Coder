@@ -257,9 +257,17 @@ button {
   }
 }
 
-@media (max-width: 600px) {
+.menu-hamburguesa{
+  display: none;
+}
+
+@media (max-width: 950px) {
   .menu {
     display: none;
+  }
+
+  .menu-hamburguesa{
+    display: block;
   }
 
   .adopcion-text {
