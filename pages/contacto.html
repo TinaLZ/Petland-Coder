@@ -24,22 +24,28 @@
     </header>
     
     <main>
-        <h1>¿Necesitas ayuda?</h1>
-        <p>Nuestros especialistas se pondrán en contacto con usted para obtener detalles y aclaraciones. Estaremos encantados de ayudarle a encontrar el curso.</p>
-        <form action=>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <label for="email">Correo Electrónico: </label>
-            <input type="email" id="email" name="email" required>
-            <label for="telefono">Numero de teléfono</label> 
-            <input type="number" id="telefono" name="telefono" required placeholder="+56 9 23456789"> 
-            <label for="comentario">Comentario:</label>
-            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
-            <input type="submit" value="Enviar">
-        </form>
+        <div class="contacto">
+            <h1 class="necesitas-ayuda">¿Necesitas ayuda?</h1>
+            <p class="parrafo-contacto">Nuestros especialistas se pondrán en contacto con usted para obtener detalles y aclaraciones. Estaremos encantados de ayudarle a resolver sus dudas.</p>
+        </div>
+        <div>
+            <form class="contacto-form" action=>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo Electrónico: </label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefono">Numero de teléfono</label> 
+                <input type="number" id="telefono" name="telefono" required placeholder="+56 9 23456789"> 
+                <label for="comentario">Comentario:</label>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                <button type="submit">Contáctenos</button>
+            </form>
+        </div>
+        <div class="redes">
         <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
     </main>
 
     <footer>
