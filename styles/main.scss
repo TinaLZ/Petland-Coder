@@ -135,6 +135,23 @@ footer {
   margin-left: 6rem;
 }
 
+.carousel-item {
+    img {
+        width: 300px !important;
+        height: 250px !important;
+        
+    }
+}
+
+.adopcion {
+  img{
+    width: 290px;
+    border-radius: 50%; 
+        background-color: $color-primario; 
+        object-fit: cover;
+  }
+}
+
 .carousel-inner img {
   margin: auto;
 }
@@ -143,6 +160,9 @@ footer {
   justify-content: space-around;
   align-items: center;
   font-size: 45px;
+  margin-top: 20px;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 .CuidadosPerrito {
   display: flex;
@@ -150,6 +170,9 @@ footer {
   align-items: center;
   font-size: 20px;
   padding-left: 15px;
+}
+#perritopug{
+    width: 450px;
 }
 .tituloCuidados {
   color: $color-primario;
@@ -218,9 +241,41 @@ button {
   text-align: center;
 }
 
+.perritos-en-adopcion{
+  font-family: $letra;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+  gap: 10px;
+  div{
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 @media (max-width: 600px) {
   .menu {
     display: none;
+  }
+
+  .adopcion-text {
+    font-family: $letra;
+    text-align: center;
+    h1{
+      font-size: 35px;
+    }
+    p{
+      font-size: 20px
+    };
+  }
+
+  .adopcionPerrito{
+    margin-top: 10px;
+    flex-direction: column;
   }
 
   .necesitas-ayuda {
@@ -265,4 +320,51 @@ button {
   .fondo-inicio {
     margin-top: 1rem;
   }
+
+  .perrito{
+    img{
+        display: none;
+    }
+}
+.ellugar {
+    margin-top: 2rem;
+    font-size: 27px;
+}
+.paratumascota{
+    margin-left: 12px;
+    font-size: 60px;
+
+}
+.perrito p {
+    margin-top: 15px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+footer{
+    p {margin-bottom: 0%;
+}
+}
+.CuidadosPerrito {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    flex-direction: column-reverse;
+    p {
+        padding: 10px;
+    }
+}
+#perritopug{
+    width: 200px;
+    margin-top: 1rem;
+}
+.tituloCuidados {
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.perritos-en-adopcion{
+  margin-top: 10px;
+}
 }
