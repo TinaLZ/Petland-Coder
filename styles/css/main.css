@@ -45,7 +45,12 @@ a {
   align-items: center;
   margin-left: 10px;
 }
-
+.perrito img {
+  transition: transform 0.3s ease-in-out;
+}
+.perrito img:hover {
+  transform: scale(1.05);
+}
 .perrito p {
   margin-top: 10px;
   font-size: 21px;
@@ -168,6 +173,14 @@ footer {
      object-fit: cover;
 }
 
+.perritos-en-adopcion div {
+  transition: transform 0.3s ease-in-out;
+}
+
+.perritos-en-adopcion div:hover {
+  transform: scale(1.05);
+}
+
 .carousel-inner img {
   margin: auto;
 }
@@ -192,6 +205,11 @@ footer {
 
 #perritopug {
   width: 450px;
+  transition: transform 0.5s ease;
+}
+
+#perritopug:hover {
+  transform: rotate(360deg);
 }
 
 .tituloCuidados {

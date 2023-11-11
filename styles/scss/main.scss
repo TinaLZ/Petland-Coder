@@ -37,13 +37,20 @@ a {
   justify-content: center;
   align-items: center;
   margin-left: 10px;
+  img{
+    transition: transform 0.3s ease-in-out;
+  }
+  img:hover{
+    transform: scale(1.05);
+  }
+  p{
+    margin-top: 10px;
+    font-size: 21px;
+    margin-left: 49px;
+    font-family: $letra;
+  }
 }
-.perrito p {
-  margin-top: 10px;
-  font-size: 21px;
-  margin-left: 49px;
-  font-family: $letra;
-}
+
 .ellugar {
   font-size: 50px;
   font-family: $letra;
@@ -120,6 +127,7 @@ footer {
   padding-top: 3.5rem;
   padding-bottom: 4.7rem;
 }
+
 .titulohotel {
   font-family: $letra;
   font-size: 100px;
@@ -152,6 +160,14 @@ footer {
   }
 }
 
+.perritos-en-adopcion div {
+  transition: transform 0.3s ease-in-out; 
+}
+.perritos-en-adopcion div:hover {
+  transform: scale(1.05); 
+}
+
+
 .carousel-inner img {
   margin: auto;
 }
@@ -171,9 +187,14 @@ footer {
   font-size: 20px;
   padding-left: 15px;
 }
+
 #perritopug{
     width: 450px;
+    transition: transform 0.5s ease;
 }
+#perritopug:hover {
+  transform: rotate(360deg); 
+} 
 .tituloCuidados {
   color: $color-primario;
   font-size: 60px;
